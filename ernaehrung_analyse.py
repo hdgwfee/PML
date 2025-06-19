@@ -21,7 +21,7 @@ plt.tight_layout()
 output_dir = '/home/safran/Desktop/pml/CSV'
 plt.savefig(os.path.join(output_dir, 'proteingehalt.png'))
 plt.show()
-plt.show()
+
 plt.title('Proteingehalt über 20g Protein')
 plt.tight_layout()
 
@@ -30,5 +30,3 @@ output_dir = '/home/safran/Desktop/pml/CSV'
 plt.savefig(os.path.join(output_dir, 'proteingehalt.png'))
 
 
-plt.show()
-plt.show()
