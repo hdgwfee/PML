@@ -1,0 +1,43 @@
+📄 Python Aufgaben – CSV-Daten auswerten & Diagramme erstellen
+Dozent: Navjit Singh
+Ziel: Mit realistischen Datensätzen arbeiten, Auswertungen durchführen und verschiedene Diagrammtypen anwenden.
+
+🧪 Aufgabe 1 – Umsatzanalyse mit Balkendiagramm
+🧠 Aufgabenstellung
+Du bekommst eine CSV-Datei mit Monatsumsätzen aus verschiedenen Abteilungen.
+Analysiere, welche Abteilungen am stärksten performen.
+✅ Anforderungen
+	•	Lies die Datei umsatz.csv ein.
+	•	Berechne den Gesamtumsatz pro Abteilung.
+	•	Erstelle ein Balkendiagramm der fünf stärksten Abteilungen.
+	•	Optional: Speichere das Ergebnis in auswertung.csv.
+💡 Hinweise
+	•	Nutze pandas für Gruppierungen (groupby).
+	•	Verwende matplotlib.pyplot.bar() oder plot(kind="bar").
+
+🏃 Aufgabe 2 – Schritte zählen mit Liniendiagramm
+🧠 Aufgabenstellung
+Eine Fitness-App hat deine Schrittzahlen aufgezeichnet.
+Analysiere, wie aktiv „Lina“ war.
+✅ Anforderungen
+	•	Lies schritte.csv ein.
+	•	Filtere alle Daten zu „Lina“.
+	•	Berechne ihren Wochendurchschnitt.
+	•	Zeichne ein Liniendiagramm mit Datum und Schrittanzahl.
+	•	Optional: Speichere Tage mit über 10.000 Schritten in aktiv.csv.
+💡 Hinweise
+	•	Nutze to_datetime() für das Datum.
+	•	Verwende plot(kind="line") für die Darstellung.
+
+🍽️ Aufgabe 3 – Ernährungsauswertung mit Kreisdiagramm
+🧠 Aufgabenstellung
+Du willst wissen, welche Gerichte wie viel Protein liefern.
+Zusätzlich soll sichtbar werden, welche Mahlzeiten kalorienarm sind.
+✅ Anforderungen
+	•	Lies ernaehrung.csv ein.
+	•	Filtere alle Gerichte mit mehr als 20 g Protein.
+	•	Zeige die drei kalorienärmsten Gerichte.
+	•	Erstelle ein Kreisdiagramm (Pie Chart) mit den Proteingehalten.
+💡 Hinweise
+	•	Sortiere mit sort_values().
+	•	Verwende plot(kind="pie") oder plt.pie().
