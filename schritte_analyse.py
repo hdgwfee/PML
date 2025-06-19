@@ -29,10 +29,3 @@ aktive_tage = lina_df[lina_df['Schritte'] > 10000]
 aktive_tage.to_csv(os.path.join(output_dir, 'aktiv.csv'))
 plt.xticks(rotation=45)
 plt.tight_layout()
-
-
-
-
-plt.show()
-
-
